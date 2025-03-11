@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 def LetraA(omega):
     return 3 / (3 + 1j * omega)
 
-def Letrab(omega):
+def LetraB(omega):
     return 5 * (1j * omega) / (3 + 1j * omega)
 
 # Valores de omega
