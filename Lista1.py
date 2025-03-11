@@ -1,18 +1,18 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def complex_function_1(omega):
+def LetraA(omega):
     return 3 / (3 + 1j * omega)
 
-def complex_function_2(omega):
+def Letrab(omega):
     return 5 * (1j * omega) / (3 + 1j * omega)
 
 # Valores de omega
 omega = np.linspace(-10, 10, 400)
 
 # Calculando módulo e argumento
-z1_values = complex_function_1(omega)
-z2_values = complex_function_2(omega)
+z1_values = LetraA(omega)
+z2_values = LetraB(omega)
 
 magnitude_1 = np.abs(z1_values)
 phase_1 = np.angle(z1_values)
