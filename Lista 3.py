@@ -12,7 +12,7 @@ def g_x(x):
     constant = np.where((x > 1) & (x <= 2), 1, 0)  # Constant 1 from 1 to 2
     return ramp + constant
 
-# Define the range
+# Define a variacao
 t = np.linspace(-5, 5, 500)  # Time range
 dt = t[1] - t[0]  # Time step
 
